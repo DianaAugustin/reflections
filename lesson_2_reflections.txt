@@ -18,8 +18,21 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+		When you do a git diff command you will see all the changes you have
+		made to your working directory. This allows you to only do the git
+		add command, which adds the files to the staging area, to the files
+		that are logically similar or for one particular feature or fix 
+		without having to move them all. When you run the git diff --staged
+		command allows you to check that you are going to commit the correct
+		files.		
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	Branches are helpful when you may be working on more than one fix or 
+	feature at a time. Or you may be wanting to simply try something out
+	before you decide whether or not you actually want to commit that change
+	without it affecting what you are doing on the master branch.
 
 How do the diagrams help you visualize the branch structure?
 
