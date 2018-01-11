@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I was able to be pointed to the section of code that had actually changed 
+    instead of having to look at the entire file line by line.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If I ever need to get back a copy of my program as it was before the last
+    change or several last changes, this is possible by going back a few
+    versions.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    You want a version to be committed after every logical change. However, if
+    one logical change is taking you days rather than hours to complete, you
+    may not be committing versions often enough and find the versions too 
+    large when you finally do commit. Or you may forget to commit after so 
+    long and the system goes down and you lose all of your changes because 
+    you haven't committed in a while. If you are doing commits manually you 
+    may sometimes choose to commit too soon. This creates too many versions
+    and makes the history large and hard to go through should you need to go 
+    back to a previous version.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Probably because most times when you are changing a document in Google 
+    Docs it is a document that is totally separate and unrelated to others.
+    When you are changing a file on the web, many files are related to each 
+    other and so when you make a change in one, you also need to make a change
+    in another or the change won't work. Therefore, the version control would
+    need to make a copy of all the related files at the same time or things
+    will not work. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    By using the git log command you will see all the versions of a program.
+    By looking at the comment that says what the change was about you can
+    find which version made the change you are interested in. Then you can 
+    use git diff to compare that version to the previous version to know
+    exactly what was added and what was deleted for that specific change.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    With the possibility of reverting to previous versions that were working,
+    you don't have to be afraid that you could break something. Even if you
+    do, you can always get back to the last working version before the error
+    was introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git to open a file using Sublime. I also have already 
+    tried using it to go back to previous versions of code in the repository
+    so that I could find out where a problem was introduced.
