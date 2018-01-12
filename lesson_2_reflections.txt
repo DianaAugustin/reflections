@@ -36,6 +36,12 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	It makes it very clear which changes from an earlier checked out change 
+	can be reached by other branches and which ones cannot. It enforces the
+	idea that if you want to save a change that you make to an earlier
+	checked out version, you will need to create a new branch for that change
+	and then commit the change to that new branch.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
